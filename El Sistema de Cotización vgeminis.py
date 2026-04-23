@@ -1,3 +1,4 @@
+print("Bienvenido al sistema de cotización de proyectos freelance!")
 # 1. Mensaje de bienvenida inicial
 nombre = input("Ingrese su nombre: ")
 print(f"Hola, {nombre}! Bienvenido al sistema de cotización.")
@@ -63,4 +64,5 @@ while True:
         break # Esto apaga el motor principal y cierra la app
     else:
         # Reemplaza tu try/except. Atrapa cualquier texto raro (ej: "pepito")
-        print("Opción no válida. Por favor, ingrese 1, 2 o 3.")
+        print("Opción no válida. Por favor, selecciona 1, 2 o 3.")
+        
